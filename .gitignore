@@ -1,7 +1,31 @@
-/.idea/
-/.vscode/
-/base/mc-dev/
-/SportPaper-API/
-/SportPaper-Server/
+# Compiled files
+*.jar
+!builddata/bin/*.jar
+SportPaper-API/target/
+SportPaper-Server/target/
+base/Paper/work/
+# Build artifacts
+*.log
+docker-build.log
+build.log
+# IDE
+.idea/
 *.iml
-*.DS_Store
+.vscode/
+.project
+.classpath
+.settings/
+# OS
+.DS_Store
+Thumbs.db
+# Server files
+plugins/
+worlds/
+logs/
+crash-reports/
+server.properties
+eula.txt
+banned-*.json
+ops.json
+usercache.json
+whitelist.json
